@@ -1,0 +1,109 @@
+
+* {font-family: sans-serif;
+}
+
+html{background-image: url(../images/bats.gif);}
+
+body{font-family: sans-serif;
+	width: 800px;
+	margin: 1em auto;
+	border: 1px solid black;
+	box-shadow: 3px 15px 18px 10px black;
+	background: white;
+}
+
+
+header{
+	border-bottom: 2px solid black;
+	padding: 1em 0;
+	background-image: linear-gradient(45deg, white 0%, #FFA500 75%, black 100%);
+}
+
+header h2{font-size: 250%;
+color: black;
+text-indent: 1.5px;
+line-height: 3px;
+} 
+
+header img {
+	float:left;
+	padding: 0.5em 1em;
+	}
+ 
+header h3{
+	font-size: 125%;
+	text-indent: 1px;
+	line-height: 0px;
+	 }
+ 
+aside{
+	float:left;
+	width: 160px;
+	height: 600px;
+	padding-right: 1em;
+	}
+
+aside ul{
+	list-style-type: none;
+	margin-left: 0.5em;
+}
+
+#nav_vertical ul li{
+	width: 108px;
+	margin-bottom: 0.5em;
+	border: 3px solid black;
+	padding: 0;
+}
+
+#nav_vertical ul li a {
+	display:block ;
+	text-decoration: none;
+	padding: 0.25em 0.5em;
+	color: black;
+	font-size: 100%;
+	background-color: #FFA500;
+	font-weight: bold;
+}
+#nav_vertical ul li a:hover, #nav_vertical ul li a:focus{background-color:gray;}
+
+body h1, h2, h3, p, ul {padding:0 1em;}
+
+body h1{font-size: 150%;
+}
+
+body h1::first-letter{font-size: 200%;}
+
+body p{
+	font-size: 110%;
+	font-weight: 100;
+	}
+
+a:link{ 
+	color: #FFA500;
+	font-weight: bold;
+	}
+	
+a:visited{color: #FFA500;}
+
+a:hover, a:focus{color: green;}
+
+.menu {
+    background-color: black;
+	text-align: center;
+   }
+
+#font {
+	font-size: 150%;
+	font-weight: bold;}
+
+footer{
+	font-size: 90%;
+	text-align:center;
+	border-top: 2px solid black;
+	padding: 0.5em 1em;
+	line-height: 1px;
+	clear:left;
+	background: linear-gradient(45deg, black 0%, #FFA500 75%, white 100%);
+}
+
+
